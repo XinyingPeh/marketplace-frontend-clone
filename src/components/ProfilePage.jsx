@@ -29,7 +29,7 @@ export default function Profile() {
 
   return (
     <>
-      <div className="container mx-auto px-4 my-4 sm:w-1/2">
+      <div className="container mx-auto px-4 py-1 sm:w-1/2">
         <div className="py-8">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             Profile
