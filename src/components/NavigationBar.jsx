@@ -58,7 +58,10 @@ export default function Navigation() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Link to="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            to="/"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Home
           </Link>
           <Link
@@ -67,8 +70,11 @@ export default function Navigation() {
           >
             Shop
           </Link>
-          <Link to="/contactus" className="text-sm font-semibold leading-6 text-gray-900">
-          Contact us
+          <Link
+            to="/contactus"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            Contact us
           </Link>
 
           <Popover className="relative">
@@ -180,14 +186,14 @@ export default function Navigation() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products].map((item) => (
-                          <Disclosure.Button
-                            key={item.name}
-                            as="Link"
-                            to={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                          >
-                            {item.name}
-                          </Disclosure.Button>
+                          <Link to={item.href}>
+                            <Disclosure.Button
+                              key={item.name}
+                              className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            >
+                              {item.name}
+                            </Disclosure.Button>
+                          </Link>
                         ))}
                       </Disclosure.Panel>
                     </>
