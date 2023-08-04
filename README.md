@@ -44,13 +44,12 @@ Welcome to the VR Experience Marketplace! This is a user-friendly and secure onl
 - Customer Reviews
 
 ## Live Site
-
-https://the-vr-experience-marketplace.onrender.com/
+https://the-vr-experience-marketplace.vercel.app/
 
 ## Repository
 
 The source code is available on GitHub:
-FE - https://github.com/joeygohyh/marketplace-frontend <br/>
+Original FE repo - https://github.com/joeygohyh/marketplace-frontend <br/>
 BE - https://github.com/XinyingPeh/marketplace-backend
 
 ## Authors
