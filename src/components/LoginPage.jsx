@@ -128,7 +128,7 @@ export default function Login() {
           </p>
 
           <p className="mt-5 text-center text-sm text-gray-500">
-            *Please refresh if the page is not loading. Server might take longer to response as the site is deployed on Render for free.
+            *Please refresh a few times if the page is not loading. Server might take longer to response as the site is deployed on Vercel for free.
           </p>
         </div>
       </div>
