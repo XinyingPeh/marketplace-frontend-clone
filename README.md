@@ -44,7 +44,7 @@ Welcome to the VR Experience Marketplace! This is a user-friendly and secure onl
 - Customer Reviews
 
 ## Live Site
-https://the-vr-experience-marketplace.vercel.app/
+https://vr-marketplace.vercel.app/
 
 ## Repository
 
